@@ -20,7 +20,6 @@ body {
 
 
 
-
 /*NAV MENU STYLING*/
 
 .nav {
@@ -28,6 +27,7 @@ body {
 	top: 0px;
 	width: 100%;
 	margin-top: -16px;
+	z-index: 1000;
 }
 .nav ul {	
   list-style: none;
@@ -69,5 +69,31 @@ body {
 
 
 
+
+
+
+/*homepage styling*/
+.frontpage {
+	width: 100%;
+}
+
+.frontpage img {
+	position: absolute;
+	width: 100%;
+	margin-top: -10px;
+	z-index: 100;
+}
+
+.Email {
+	position: absolute;
+	bottom: 0;
+	width: 300px;
+	background-color: orange;
+	z-index: 200;
+	margin-bottom: -70px;
+	left: 39%;
+
+}
+/*homepage styling*/
 
 
