@@ -20,6 +20,13 @@ body {
 
 
 
+.mainlogo {
+	width: 20px;
+	position: fixed;
+	top: 0px;
+}
+
+
 /*NAV MENU STYLING*/
 
 .nav {
@@ -38,7 +45,7 @@ body {
 }
 .nav li {
   display: inline-block;
-  font-family: Helvetica, sans-serif;
+  font-family: Arial black , Helvetica, sans-serif;
 }
  
 .nav a {
@@ -48,7 +55,7 @@ body {
 }
  
 .nav a:hover {
-  background-color: #005f5f;
+  background-color: #87CEFA;
 }
  
 .nav a.active {
