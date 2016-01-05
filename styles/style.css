@@ -1,0 +1,151 @@
+/*PICTURE DIV*/
+.picturecontent {
+  float:center;
+  width: 600px
+  height: 400px;
+  margin: 0;
+  padding:0;
+}
+
+/*PICTURE DIV*/
+
+body {
+	margin: auto 0;
+  width: 60%
+	height: 100%;
+  border: 3px solid #73AD21;
+  padding:10px;
+
+}
+  .picturecontent {
+display: block;
+margin: 0 auto;
+       }
+
+
+
+/*CENTER DIV*/
+.centeredcontent {
+	width: 80%;
+	margin-left: 10%;
+	height: 1500px;
+	background-color: #5CACEE;
+}
+
+.centeredcontent p {
+	padding: 20px;
+}
+/*CENTER DIV*/
+
+
+/*NAV MENU STYLING*/
+.nav {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	margin-top: -16px;
+	z-index: 1000;
+}
+.nav ul {	
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin-bottom: -16px;
+}
+.nav li {
+  display: inline-block;
+  font-family: Arial black , Helvetica, sans-serif;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ 
+.nav a:hover {
+  background-color: #87CEFA;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+.nav li {
+    width: 20%;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+/*NAV MENU STYLING*/
+
+
+
+
+
+
+
+/*homepage styling*/
+.frontpage {
+	width: 100%;
+}
+
+.frontpage img {
+	position: absolute;
+	width: 100%;
+	margin-top: -10px;
+	z-index: 100;
+}
+/*homepage styling*/
+
+
+
+.Email {
+	position: absolute;
+	bottom: 0;
+	width: 300px;
+	z-index: 200;
+	margin-bottom: -70px;
+	left: 44%;
+}
+
+.Email button {
+	margin-bottom: 40px;
+	margin-left: 30px;
+	background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.Email button:hover {
+background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}  
+
+.Email textarea {
+	font-family: Arial;
+	font-size: 0.9em;
+}
+#myText {
+	height: 60px;
+}
+
