@@ -84,6 +84,8 @@ body {
 
 
 
+
+/*EMAIL BUTTON*/
 .Email {
 	position: absolute;
 	bottom: 0;
@@ -94,7 +96,7 @@ body {
 }
 
 .Email button {
-	margin-bottom: 40px;
+	margin-bottom: 5px;
 	margin-left: 30px;
 	background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -128,4 +130,5 @@ background: #3cb0fd;
 #myText {
 	height: 60px;
 }
+/*EMAIL BUTTON*/
 
